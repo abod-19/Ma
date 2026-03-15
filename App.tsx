@@ -30,7 +30,7 @@ const App: React.FC = () => {
     thirdPlace: Participant | null;
   }>({ winner: null, runnerUp: null, thirdPlace: null });
 
-  // Archive State
+  // Archive State 
   const [savedTournaments, setSavedTournaments] = useState<SavedTournament[]>([]);
   const [currentTournamentId, setCurrentTournamentId] = useState<string | null>(null);
 
